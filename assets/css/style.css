@@ -4,8 +4,8 @@
 }
 
 body {
-  background: #F7F7F9;
-  font-family: 'poppins' sans-serif; 
+  background: #f7f7f9;
+  font-family: 'poppins', sans-serif;
 }
 
 /* Header/nav */
@@ -15,24 +15,22 @@ nav {
   align-items: center;
   height: 48px;
   width: 375px;
-  color: #6070FF;
-  background: #FFFFFF;
+  color: #6070ff;
+  background: #fff;
   padding: 24px;
 }
 
 nav h1 {
-  font-family: Poppins;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
-  letter-spacing: 0em;
   text-align: center;
 }
 
 /* Hero section */
 
 .hero {
-  background: #FFFFFF;
+  background: #fff;
   height: 600px;
   width: 375px;
   top: 92px;
@@ -47,7 +45,7 @@ nav h1 {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .hero p {
@@ -62,7 +60,7 @@ nav h1 {
 
 .hero a {
   text-decoration: none;
-  color:#7F8CFF;
+  color: #7f8cff;
   height: 24px;
   width: 117px;
   font-size: 16px;
@@ -70,7 +68,7 @@ nav h1 {
   line-height: 24px;
 }
 
-.hero ul{
+.hero ul {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -89,7 +87,7 @@ nav h1 {
 }
 
 .social_link a {
-  color: #505F79;
+  color: #505f79;
   height: 19px;
   width: 19px;
   left: 24px;
