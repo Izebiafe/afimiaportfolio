@@ -1,4 +1,6 @@
-<a name="readme-top"></a>
+
+
+
 
 # 📗 Table of Contents
 
@@ -6,13 +8,14 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-<!--   - [Prerequisites](#prerequisites) -->
+  - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-<!--   - [Run tests](#run-tests) -->
-<!--   - [Deployment](#deployment) -->
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -22,7 +25,8 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My Personal Portfolio <a name="about-project"></a>
+# 📖  My Personal Portfolio  <a name="about-project"></a>
+
 
 **My portfolio is designed to be user-friendly and easy to navigate. You can learn more about me and my work by exploring the different sections, including my projects, work experience, and education.**
 
@@ -50,11 +54,18 @@
 
 ### Key Features <a name="key-features"></a>
 
-<!-- > Describe between 1-3 key features of the application. -->
-
 - **Contact form for easy communication**
 - **Information about my work experience and educational background**
 - **Detailed project descriptions with links to code repositories and live demos**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- NOT DEPLOYED YET!!!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,74 +73,49 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-<!-- > Describe how a new developer could make use of your project. -->
 
-To get started with the portfolio, you can follow these simple steps:
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need to have good knowledge of html and css, npm is required.
+
+### Setup
+
+Clone this repository to your desired folder:
 
 
-### Install
-Clone the repository to your local machine using the following command:
 
 ```sh
-  git clone git@github.com/Izebiafe/portfolio
+  git clone git@github.com:izebiafe/my-portfolio.git
+  cd my-portfolio
 ```
 
 ### Install
-Navigate to the project directory:
+
+Install this project with:
 
 ```sh
- cd portfolio
+  cd my-portfolio
+  npm install
 ```
-
-Open the index.html file in your web browser to view the project:
-```sh
- open index.html
-```
-
-You can now make changes to the project as desired and push them back to the repository using Git.
-
-That's it! With these simple steps, you should be able to get up and running with the portfolio in no time. Happy coding!
-
-
 
 ### Usage
 
-To use my portfolio, simply visit the following link: https://github.com/Izebiafe/Portfolio
+To run the project, you need vscode live server.
 
-Once you arrive at my portfolio, you can navigate through the different sections using the links provided in the navigation bar. Here is a brief overview of what you can expect to find in each section:
+### Run tests
 
-Projects: This section contains a list of the projects I have worked on. Each project includes a brief description, the tools and technologies used, and a link to the project's code repository or live demo.
-
-- **Work Experience: This section provides information about my previous work experience, including the positions I have held and the responsibilities I have had.**
-
-- **Education: This section contains information about my educational background, including the degrees I have earned and the schools I have attended.**
-
-- **Contact: If you have any questions or would like to get in touch, you can reach me at afimiafidelis95@gmail.com.**
-
-
-<!-- ### Run tests
-
-To run tests, run the following command: -->
-
-<!--
-Example command:
+To run tests, run the following command to 
 
 ```sh
-  bin/rails test test/models/article_test.rb
+npx hint .
+npx stylelint "**/*.{css,scss}"
 ```
---->
 
-<!-- ### Deployment
+### Deployment
 
-You can deploy this project using: -->
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+You can deploy this project using any web platform of your choice
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +123,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-<!-- > Mention all of the collaborators of this project. -->
 
 👤 **Afimia Fidelis Izebiafe**
 
@@ -145,13 +130,12 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/Afimia_fidelis)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/izebiafe)
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-<!-- > Describe 1 - 3 features you will add to the project. -->
 
 - [ ] **Additional pages: More pages will be added to the project to display additional content.**
 - [ ] **Responsive design: The project will be optimized to display properly on different screen sizes, including desktops, tablets, and mobile devices.**
@@ -163,7 +147,7 @@ Example:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-If you'd like to contribute to this project, feel free to fork the repository and make changes as you see fit. Please submit a pull request with your changes and I'll review them as soon as possible.
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
@@ -185,8 +169,8 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-  
+<!-- LICENSE -->
+
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
