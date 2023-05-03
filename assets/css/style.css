@@ -35,10 +35,9 @@ nav h1 {
   height: 600px;
   width: 375px;
   top: 92px;
-  background-image: no-repeat;
   padding: 114px 24px;
   border-bottom-left-radius: 120px;
-  background-image: url("../images/backg.svg");
+  background-image: url("../images/backg.svg") no-repeat;
 }
 
 .hero h1 {
