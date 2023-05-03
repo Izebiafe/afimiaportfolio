@@ -21,7 +21,7 @@ nav {
   padding: 24px;
 }
 
-nav h1 {
+nav a {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -31,17 +31,17 @@ nav h1 {
 /* Hero section */
 
 .hero {
-  background: #fff;
   height: 600px;
   width: 375px;
   top: 92px;
   padding: 114px 24px;
   border-bottom-left-radius: 120px;
-  background-image: url("../images/backg.svg") no-repeat;
+  background: url("../images/backg.svg") #fff no-repeat;
 }
 
 .hero h1 {
-  height: 150px;
+  text-decoration: none;
+  height: 220px;
   width: 327px;
   font-size: 40px;
   font-weight: 700;
@@ -56,15 +56,15 @@ nav h1 {
   font-weight: 400;
   line-height: 24px;
   color: #344563;
-  margin-top: 75px;
+  margin-top: 10px;
 }
 
-.hero a {
+.hero h3 {
   text-decoration: none;
   color: #7f8cff;
   height: 24px;
   width: 117px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 24px;
 }
