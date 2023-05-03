@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -34,6 +35,7 @@ nav h1 {
   height: 600px;
   width: 375px;
   top: 92px;
+  background-image: no-repeat;
   padding: 114px 24px;
   border-bottom-left-radius: 120px;
   background-image: url("../images/backg.svg");
@@ -55,7 +57,7 @@ nav h1 {
   font-weight: 400;
   line-height: 24px;
   color: #344563;
-  margin-top: 10px;
+  margin-top: 75px;
 }
 
 .hero a {
