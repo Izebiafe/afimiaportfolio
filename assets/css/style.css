@@ -152,24 +152,25 @@ nav a {
   border-radius: 8px;
   background: #ebebdd;
   text-decoration: none;
-  color: #7a869a;
+  color: #6070ff;
 }
 
 button {
-  align-items: center;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #396df2;
   padding: 12px;
+  flex-direction: row;
   gap: 10px;
   border-radius: 8px;
-  width: 126px;
-  height: 48px;
+  background: #fff;
   border: 1px solid #6070ff;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  margin-top: 15px;
+  width: 145px;
+  margin-top: 10px;
 }
 
 /* ABOUT MYSELF SECTION */
