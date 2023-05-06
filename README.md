@@ -138,7 +138,7 @@ You can deploy this project using any web platform of your choice
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Additional pages: More pages will be added to the project to display additional content.**
-- [ ] **Responsive design: The project will be optimized to display properly on different screen sizes, including desktops, tablets, and mobile devices.**
+- [ ] **Responsive design: This project is optimized to display properly on different screen sizes, including desktops, tablets, and mobile devices.**
 - [ ] **JavaScript interactivity: Some interactive features will be added using JavaScript to enhance the user experience.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
