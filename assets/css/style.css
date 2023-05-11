@@ -240,11 +240,12 @@ hr {
 
 .contact {
   background-image: url("../images/contact-bg.svg");
-  background-position: center 100px;
+  background-position: 500px cover;
   background-size: auto;
   background-repeat: no-repeat;
   border-top-left-radius: 160px;
   background-color: #6070ff;
+  height: auto;
 }
 
 .contact .contact-text {
@@ -259,6 +260,7 @@ hr {
   font-size: 40px;
   color: #fff;
 }
+
 
 .contact .form-field {
   margin: 10px auto;
