@@ -6,7 +6,7 @@ body {
   box-sizing: border-box;
   background: #f7f7f9;
   font: 15px/1.5;
-  font-family: 'poppins';
+  font-family: 'poppins', sans-serif;
 }
 
 ul {
