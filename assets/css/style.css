@@ -260,9 +260,6 @@ hr {
   color: #fff;
 }
 
-.contact-form {
-}
-
 .contact .form-field {
   margin: 10px auto;
   justify-content: center;
@@ -286,7 +283,6 @@ hr {
   width: 100%;
   display: flex;
   height: 150px;
-  
   font-size: 16px;
   border-radius: 8px;
 }
