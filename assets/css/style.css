@@ -73,6 +73,14 @@ header h3 {
   color: #344563;
 }
 
+.contact .contact-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+}
+
 #hero .container p {
   font-size: 16px;
   font-weight: 400;
@@ -250,14 +258,6 @@ hr {
   font-weight: 700;
   font-size: 40px;
   color: #fff;
-}
-
-.contact .contact-text p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  color: #ebebff;
 }
 
 .contact-form {
