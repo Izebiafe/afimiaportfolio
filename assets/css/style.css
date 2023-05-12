@@ -392,7 +392,8 @@ hr {
   .contact input[type="email"] {
     border: 0;
     border: 1px solid #fff;
-    width: 100%;
+    width: 50%;
+    margin: auto;
     height: 48px;
     font-size: 16px;
     display: flex;
@@ -402,7 +403,8 @@ hr {
   .contact textarea {
     border: 0;
     border: 1px solid #fff;
-    width: 100%;
+    width: 50%;
+    margin: auto;
     height: 150px;
     font-size: 16px;
     padding-left: 15px;
@@ -413,4 +415,15 @@ hr {
     text-align: center;
     margin: auto;
   }
+
+  .contact .contact-text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ebebff;
+    width: 70%;
+    margin: 15px auto;
+}
+
 }

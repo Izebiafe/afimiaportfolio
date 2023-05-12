@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <link rel="stylesheet" href="assets/css/utilites.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
     crossorigin="anonymous" />
@@ -37,21 +38,7 @@
     </div>
   </header>
 
-  <!--<header>
-    <div class="container">
-      <h3>my logo</h3>
-      <nav class="desktop-nav">
-        <ul>
-          <li>Portfolio</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </div>
-  </header> -->
-  <!--Hero section-->
-
-  <section id="hero">
+   <section id="hero">
     <div class="container">
       <div class="hero">
         <h1>I’m Afimia. <br>
@@ -76,7 +63,7 @@
     <div class="work">
       <div class="card">
         <img class="card-img" src="assets/images/tonic1.svg" alt="poststories">
-        <div class="leftblock">
+        <div class="content">
           <div class="tonic">
             <h3>Multi-Post <br>
               Stories</h3>
@@ -92,17 +79,14 @@
             <li><a href="#">css</a></li>
             <li><a href="#">Javascript</a></li>
           </ul>
-          <button>
-            <h3>See project</h3>
-          </button>
+          <button class="btn btn-outline btn-hover mt-15 btn-pressed">See Project</button>
         </div>
       </div>
     </div>
 
-    <div class="work">
+    <div class="work mirror">
       <div class="card">
-        <img class="card-img" src="assets/images/poststories.svg" alt="poststories">
-        <div class="leftblock">
+        <div class="content">
           <div class="tonic">
             <h3>Multi-Post <br>
               Stories</h3>
@@ -118,17 +102,16 @@
             <li><a href="#">css</a></li>
             <li><a href="#">Javascript</a></li>
           </ul>
-          <button>
-            <h3>See project</h3>
-          </button>
+          <button class="btn btn-outline btn-hover mt-15 btn-pressed">See Project</button>
         </div>
+        <img class="card-img" src="assets/images/poststories.svg" alt="poststories">
       </div>
     </div>
 
     <div class="work">
       <div class="card">
         <img class="card-img" src="assets/images/tonic2.svg" alt="tonic2">
-        <div class="leftblock">
+        <div class="content">
           <div class="tonic">
             <h3>Tonic</h3>
             <ul>
@@ -143,17 +126,14 @@
             <li><a href="#">css</a></li>
             <li><a href="#">Javascript</a></li>
           </ul>
-          <button>
-            <h3>See project</h3>
-          </button>
+          <button class="btn btn-outline btn-hover mt-15 btn-pressed">See Project</button>
         </div>
       </div>
     </div>
 
-    <div class="work">
+    <div class="work mirror">
       <div class="card">
-        <img class="card-img" src="assets/images/poststories2.svg" alt="tonic1">
-        <div class="leftblock">
+        <div class="content">
           <div class="tonic">
             <h3>Multi-Post
               Stories</h3>
@@ -169,10 +149,9 @@
             <li><a href="#">css</a></li>
             <li><a href="#">Javascript</a></li>
           </ul>
-          <button>
-            <h3>See project</h3>
-          </button>
+          <button class="btn btn-outline btn-hover mt-15 btn-pressed">See Project</button>
         </div>
+        <img class="card-img" src="assets/images/poststories2.svg" alt="tonic1">
       </div>
     </div>
   </section>
@@ -194,9 +173,7 @@
           <li><a href="#"><i class="fa fa-github-alt fa-lg"></i></a></li>
           <li><a href="#"><i class="fa fa-angellist fa-lg"></i></a></li>
         </ul>
-        <button>
-          <h3>Get my resume</h3>
-        </button>
+        <button class="btn btn-outline btn-hover mt-15 btn-pressed">Get My Resume</button>
       </div>
 
       <div>
@@ -255,7 +232,7 @@
               <textarea name="message" placeholder="Write your message here..." maxlength="500" required></textarea>
             </div>
             <div class="button-field">
-              <button type="submit">Get in touch </button>
+              <button type="submit" class="btn btn-default btn-hover-2 btn-pressed">Get in touch</button>
             </div>
           </form>
         </div>
