@@ -348,7 +348,10 @@ hr {
   .card .card-img {
     width: 100%;
     padding-right: 24px;
+    flex: 1.5px;
   }
+
+  
 
   /* About */
   #about .container {
