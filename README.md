@@ -65,7 +65,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- DEPLOYED TO 
+- DEPLOYED TO https://izebiafe.github.io/afimiaportfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,8 +87,8 @@ Clone this repository to your desired folder:
 
 
 ```sh
-  git clone git@github.com:izebiafe/my-portfolio.git
-  cd my-portfolio
+  git clone git@github.com:izebiafe/afimiaportfolio.git
+  cd afimiaportfolio
 ```
 
 ### Install
