@@ -65,7 +65,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- DEPLOYED TO https://izebiafe.github.io/afimiaportfolio/
+- DEPLOYED TO 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
