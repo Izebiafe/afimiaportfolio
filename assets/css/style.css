@@ -48,6 +48,8 @@ header h3 {
   color: #6070ff;
 }
 
+
+
 .tonic ul {
   display: flex;
   gap: 15px;
@@ -322,6 +324,53 @@ hr {
     display: flex;
     gap: 20px;
     color: #344563;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: var(--accent);
+    font-size: 24px;
+    font-weight: 550;
+  }
+  
+  .nav-icon {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .nav-links-container {
+    display: none;
+  }
+  
+  .nav-links-container.open {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    top: 65px;
+    bottom: 40px;
+    height: 55vh;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    z-index: 3;
+  }
+  
+  .nav-links-container.open ul {
+    list-style-type: none;
+    margin: 8px 25px;
+  }
+  
+  .nav-links-container.open ul li {
+    padding: 10px;
+    color: rgba(58, 74, 66, 1);
+    font-size: 32px;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(224, 218, 218, 0.829);
   }
 
   #hero {
