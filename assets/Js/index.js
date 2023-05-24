@@ -1,6 +1,8 @@
 const openMenu = document.querySelector('#open-menu');
 const closeMenu = document.querySelector('#close-menu');
 const mobile = document.querySelector('#mobile');
+const navlink = document.querySelectorAll('.nav-link');
+const navlinks = Array.from(navlink);
 
 openMenu.addEventListener('click', () => {
   mobile.style.display = 'block';
@@ -20,3 +22,10 @@ window.onresize = () => {
     document.body.style.overflow = 'auto';
   }
 };
+
+navlinks.forEach((n) => {
+  n.addEventListener('click', () => {
+    mobile.style.display = 'none';
+    document.body.style.overflow = 'auto';
+  });
+});
