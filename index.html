@@ -23,25 +23,26 @@
 
   <!--Header section-->
 
-    <header>
-      <div class="container">
-        <h3>my logo.</h3>
+  <header>
+    <div class="container">
+      <h3>my logo.</h3>
 
-        <nav>
-          <div class="nav-icon" onclick="toggleMenu()">
-            <i class="fa fa-bars fa-2xl" aria-hidden="true"></i>
-          </div>
-
-          <div class="nav-links-container">
-          <ul class="nav-links">
-            <li>Portfolio</li>
-            <li>About</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-        </nav>
-      </div>
-    </header>
+      <nav>
+        <i id="open-menu" class="fa fa-bars"></i>
+        <ul>
+          <li>Portfolio</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </div>
+    <nav id="mobile" class="mobile">
+      <i id="close-menu" class="fas fa-times"></i>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </nav>
+  </header>
 
     <section id="hero">
       <div class="container">

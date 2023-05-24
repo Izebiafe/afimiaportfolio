@@ -1,23 +1,22 @@
-// ============ Mobile Pop up Menu ==========================
-function toggleMenu() {
-  const menuIcon = document.querySelector('.nav-icon');
-  const menu = document.querySelector('.nav-links-container');
+const openMenu = document.querySelector("#open-menu");
+const closeMenu = document.querySelector("#close-menu");
+const mobile = document.querySelector("#mobile");
 
-  menuIcon.classList.toggle('open');
-  menu.classList.toggle('open');
-
-  if (menuIcon.classList.contains('open')) {
-    menuIcon.innerHTML = '<i class="fa fa-times fa-2xl"></i>';
-  } else {
-    menuIcon.innerHTML = '<i class="fa fa-bars fa-2xl"></i>';
-  }
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  const menuLinks = document.querySelectorAll('.nav-links-container a');
-  for (let i = 0; i < menuLinks.length; i += 1) {
-    menuLinks[i].addEventListener('click', () => {
-      toggleMenu();
-    });
-  }
+openMenu.addEventListener("click", () => {
+  mobile.style.display = "block";
+  document.body.style.overflow = "hidden";
 });
+
+closeMenu.addEventListener("click", () => {
+  mobile.style.display = "none";
+  document.body.style.overflow = "auto";
+});
+
+// Hide mobile navbar and blurred div
+// for desktop on window resize
+window.onresize = () => {
+  if (window.innerWidth >= 768) {
+    mobile.style.display = "none";
+    document.body.style.overflow = "auto";
+  }
+};
