@@ -80,6 +80,19 @@ header .container ul {
   padding: 10px 0;
 }
 
+.language li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  background-color: #f7f7f9;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #253858;
+  padding: 5px;
+  font-size: 20px;
+}
+
 .mobile li:nth-child(2) {
   margin-top: 50px;
 }
@@ -241,19 +254,6 @@ button {
   display: flex;
   flex-direction: column;
   gap: 25px;
-}
-
-.language li {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 20px;
-  background-color: #f7f7f9;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #253858;
-  padding: 5px;
-  font-size: 20px;
 }
 
 .chev {
