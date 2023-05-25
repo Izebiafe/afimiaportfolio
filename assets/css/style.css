@@ -57,6 +57,52 @@ header .container ul {
   display: none;
 }
 
+.mobile {
+  display: none;
+  background: rgba(96, 112, 255, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  list-style-type: none;
+  padding: 20px 40px;
+}
+
+.mobile i {
+  float: right;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.mobile li {
+  padding: 10px 0;
+}
+
+.language li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  background-color: #f7f7f9;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #253858;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.mobile li:nth-child(2) {
+  margin-top: 50px;
+}
+
+.mobile a {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
 /* Hero section */
 
 #hero {
@@ -210,19 +256,6 @@ button {
   gap: 25px;
 }
 
-.language li {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 20px;
-  background-color: #f7f7f9;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #253858;
-  padding: 5px;
-  font-size: 20px;
-}
-
 .chev {
   display: flex;
   justify-content: space-between;
@@ -309,6 +342,10 @@ hr {
 }
 
 @media (min-width: 768px) {
+  #open-menu {
+    display: none;
+  }
+
   /* header */
   header {
     height: 73px;
