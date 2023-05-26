@@ -29,3 +29,24 @@ navlinks.forEach((n) => {
     document.body.style.overflow = 'auto';
   });
 });
+
+function validateEmail(event) {
+  const emailInput = document.getElementById('email');
+  const errorMessage = document.getElementById('errorMessage');
+
+  if (emailInput.checkValidity()) {
+    const email = emailInput.value.trim();
+    const isLowerCase = email === email.toLowerCase();
+
+    if (isLowerCase) {
+      errorMessage.style.display = 'none';
+    } else {
+      errorMessage.textContent = 'Please enter the email in lowercase.';
+      errorMessage.style.display = 'block';
+      event.preventDefault();
+    }
+  }
+}
+
+const form = document.getElementById('form');
+form.addEventListener('submit', validateEmail);

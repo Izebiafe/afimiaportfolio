@@ -62,7 +62,6 @@ const portfolioData = [
 ];
 
 const modalContainer = document.createElement('div');
-console.log(modalContainer);
 const modalOpen = (id) => {
   modalContainer.innerHTML = `
 <div class="work">

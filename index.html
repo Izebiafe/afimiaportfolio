@@ -227,18 +227,19 @@
 
           <!-- contact form -->
           <div class="contact-form">
-            <form action="https://formspree.io/f/xbjewoav" method="post">
+            <form id="form" action="https://formspree.io/f/xbjewoav" method="post">
               <div class="form-field">
-                <input type="text" name="name" placeholder="Full Name" maxlength="30" required>
+                <input type="text" name="name" id="name" placeholder="Full Name" maxlength="30" required>
               </div>
               <div class="form-field">
-                <input type="email" name="email" placeholder="Email" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
               </div>
               <div class="form-field">
-                <textarea name="message" placeholder="Write your message here..." maxlength="500" required></textarea>
+                <textarea name="message" id="message" placeholder="Write your message here..." maxlength="500" required></textarea>
               </div>
               <div class="button-field">
-                <button id="cta" type="submit" class="btn btn-default btn-hover-2 btn-pressed">Get in touch</button>
+                <button type="submit" id="btn" class="btn btn-default btn-hover-2 btn-pressed">Get in touch</button>
+                <span id="errorMessage"></span>
               </div>
             </form>
           </div>
