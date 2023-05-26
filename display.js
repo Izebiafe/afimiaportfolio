@@ -59,14 +59,17 @@ const portfolioData = [
     linkToLiveVersion: '#',
     linkToSource: '#',
   },
+
 ];
 
 const modalContainer = document.createElement('div');
-console.log(modalContainer);
+modalContainer.className = 'popup';
 const modalOpen = (id) => {
+  const closeBtn = '&times;';
   modalContainer.innerHTML = `
 <div class="work">
       <div class="card">
+       <button type="button" onClick="closeModal()">${closeBtn}</button>
         <img class="card-img" src="${portfolioData[id].featuredImage}" alt="poststories">
         <div class="content">
           <div class="tonic">
@@ -89,6 +92,9 @@ const modalOpen = (id) => {
     </div>
 `;
   document.body.appendChild(modalContainer);
+};
+const closeModal = () => {
+  modalContainer.remove();
 };
 
 const modalButton = document.querySelectorAll('[id^="cta"]');
