@@ -93,9 +93,9 @@ const modalOpen = (id) => {
 `;
   document.body.appendChild(modalContainer);
 };
-// const closeModal = () => {
-//   modalContainer.remove();
-// };
+const closeModal = () => {
+  modalContainer.remove();
+};
 
 const modalButton = document.querySelectorAll('[id^="cta"]');
 modalButton.forEach((button, index) => {
