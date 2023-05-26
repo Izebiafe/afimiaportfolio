@@ -29,3 +29,26 @@ navlinks.forEach((n) => {
     document.body.style.overflow = 'auto';
   });
 });
+
+const form = document.querySelector('#form');
+const name = document.querySelector('#name');
+const email = document.querySelector('#email');
+const message = document.querySelector('#message');
+
+// Save form data to localstorage
+form.addEventListener('keyup', () => {
+  const formData = {
+    name: name.value,
+    email: email.value,
+    message: message.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+// Retrive form data from localstorage on page load
+window.onload = () => {
+  const formData = localStorage.getItem('formData');
+  const formDataObj = JSON.parse(formData);
+  name.value = formDataObj.name;
+  email.value = formDataObj.email;
+  message.value = formDataObj.message;
+};
