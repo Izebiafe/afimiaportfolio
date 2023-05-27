@@ -63,7 +63,6 @@ const portfolioData = [
 ];
 
 const modalContainer = document.createElement('div');
-modalContainer.className = 'popup';
 const modalOpen = (id) => {
   const closeBtn = '&times;';
   modalContainer.innerHTML = `
