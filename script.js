@@ -64,7 +64,7 @@ const works = [
   },
 ];
 
-for (let i = 0; i < works.length; i += 1) {
+for (let i = 1; i < works.length; i += 1) {
   const work = works[i];
 
   const portfolio = document.getElementById('portfolio');
@@ -93,24 +93,52 @@ for (let i = 0; i < works.length; i += 1) {
 
 const sampleStep = [
   {
+    id: 1,
     title: 'Tonic',
+    image: 'img/Snapshoot Portfolio.png',
+    imgeAlt: 'snapshoot Portfolio picture',
+    canopy: ['CANOPY', 'Front-End Dev', '2022'],
+    descript:
+    'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    languages: ['html', 'css', 'javascript'],
+    sourcebtn: '#',
+    liveBtn: '#',
+  },
+  {
+    id: 2,
+    title: 'Multi-Post Stories',
+    image: 'img/Snapshoot Portfolio(1).png',
+    imageAlt: 'snapshoot Portfolio picture',
+    canopy: ['FACEBOOK', 'Back End Dev', '2015'],
+    descript:
+    'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    languages: ['html', 'css', 'Javascript'],
+    sourcebtn: '#',
+    liveBtn: '#',
+  },
+  {
+    id: 3,
+    title: 'Facebook 360',
     image: 'img/Snapshoot Portfolio(2).png',
     imageAlt: 'snapshoot Portfolio picture',
-    canopy: ['CANOPY', 'Back End Dev', '2015'],
+    canopy: ['FACEBOOK', 'Full Stack Dev', '2015'],
     descript:
-    `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-     Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
-      when an unkown printer took a galley of type and scrambled it 1960s with thereleaLorem 
-      Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
-    when an unknown printer took a galley of type and scrambled it 1960s with the 
-    releorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the 
-    releawn printer took a galley of type and scrambled it 1960s with the releaLorem 
-    Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
-    has been the industrys standard dummy text ever since the 1500s, when an unknown 
-    printer took a galley of type and scrambled it 1960s with the relea`,
-    languages: ['html', 'css', 'javascript'],
+    'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    languages: ['html', 'css', 'Javascript'],
+    sourcebtn: '#',
+    liveBtn: '#',
+  },
+  {
+    id: 4,
+    title: 'Uber Navigation',
+    image: 'img/Snapshoot Portfolio(3).png ',
+    imageAlt: 'snapshoot Portfolio picture',
+    canopy: ['Uber', 'Lead Developer', '2018'],
+    descript:
+    'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    languages: ['html', 'css', 'Javascript'],
+    sourcebtn: '#',
+    liveBtn: '#',
   },
 ];
 
