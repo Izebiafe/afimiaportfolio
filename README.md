@@ -1,6 +1,15 @@
+<a name="readme-top"></a>
 
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="https://dl.dropboxusercontent.com/s/36qn9s23n9mgsth/dorcaslogo.png" alt="logo" width=""  height="auto" />
+  <br/>
 
+  <h3><b></b></h3>
 
+</div>
+
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -25,139 +34,112 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖  My Personal Portfolio  <a name="about-project"></a>
+# 📖 [setup and mobile first project] 
 
-
-**My portfolio is designed to be user-friendly and easy to navigate. You can learn more about me and my work by exploring the different sections, including my projects, work experience, and education.**
+This is my first project on Microverse 
+I add a heading to my html file 
+and styled it , by giving it a color.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> This project was built using the following technologies:
-
 <details>
   <summary>HTML</summary>
   <ul>
-    <li><a href="https://www.w3schools.com/html/" target="_blank">React.js</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
 <details>
   <summary>CSS</summary>
   <ul>
-    <li><a href="https://www.w3schools.com/css/" target="_blank">Express.js</a></li>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>JS</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
 </details>
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Key Features 
 
-- **Contact form for easy communication**
-- **Information about my work experience and educational background**
-- **Detailed project descriptions with links to code repositories and live demos**
+- **[Add HTML]**
+- **[Add css]**
+- **[Add Desktop and Mobile screen responsiveness]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+<!-- LIVE DEMO SECTION-->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo 
 
-
-- DEPLOYED TO https://izebiafe.github.io/afimiaportfolio/
+- [Live Demo Link](https://dorcas126.github.io/Setup-and-mobile-first-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
-
+## 💻 Getting Started 
 
 To get a local copy up and running, follow these steps.
+just visit my repo folder (https://github.com/Dorcas126/Setup-and-mobile-first-project/tree/desktop-version)
 
 ### Prerequisites
 
-In order to run this project you need to have good knowledge of html and css, npm is required.
+In order to run this project you need:
 
-### Setup
+any code editor 
+but mostly use Vs code
+
+### Setup 
 
 Clone this repository to your desired folder:
-
-
-
-```sh
-  git clone git@github.com:izebiafe/afimiaportfolio.git
-  cd afimiaportfolio
-```
+https://github.com/Dorcas126/Setup-and-mobile-first-project.git
 
 ### Install
 
 Install this project with:
 
-```sh
-  cd my-portfolio
-  npm install
-```
+Github
+Vs code 
+to be able to access the code
 
 ### Usage
 
-To run the project, you need vscode live server.
+To run the project, execute the following command:
+
+Linters
+git commands
 
 ### Run tests
 
-To run tests, run the following command to 
+To run tests, run the following command:
 
-```sh
-npx hint .
-npx stylelint "**/*.{css,scss}"
-```
-
-### Deployment
-
-You can deploy this project using any web platform of your choice
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Linters
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors 
 
-
-👤 **Afimia Fidelis Izebiafe**
 👤 **Uwimbabazi Dorcas**
+👤 **Afimia Fidelis I**
 
-- GitHub: [@githubhandle](https://github.com/izebiafe)
-- Twitter: [@twitterhandle](https://twitter.com/Afimia_fidelis)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/izebiafe)
 - GitHub: [@Dorcas126](https://github.com/Dorcas126)
 - Twitter: [@Dorcasuw](https://twitter.com/Dorcasuwi)
 - LinkedIn: [Uwimbabazi Dorcas](https://www.linkedin.com/in/uwimbabazi-dorcas-956a5a226/)
-
-
-
-
-
-
-👤 **Uwimbabazi Dorcas**
-- GitHub: [@Dorcas126](https://github.com/Dorcas126)
-- Twitter: [@Dorcasuw](https://twitter.com/Dorcasuwi)
-- LinkedIn: [Uwimbabazi Dorcas](https://www.linkedin.com/in/uwimbabazi-dorcas-956a5a226/)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Additional pages: More pages will be added to the project to display additional content.**
-- [ ] **Responsive design: This project is optimized to display properly on different screen sizes, including desktops, tablets, and mobile devices.**
-- [ ] **JavaScript interactivity: Some interactive features will be added using JavaScript to enhance the user experience.**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- GitHub: [@Izebiafe](https://github.com/Izebiafe)
+- Twitter: [@Izebiafe](https://twitter.com/Afimia_fidelis)
+- LinkedIn: [Afimia Fidelis]
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing 
 
 Contributions, issues, and feature requests are welcome!
 
@@ -165,19 +147,31 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- Future Features -->
+
+### Future Features 
+
+- **[Add functionality using JS]**
+- **[Add Boostrap to my html file]**
+
+
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## ⭐️ Show your support
 
-> I am excited to share with you my latest project on Github. As you know, Github is an essential tool for developers to showcase their skills, collaborate with others, and contribute to open-source projects. By supporting my project, you can help me improve my Github workflow skills and learn how to set up HTML & CSS linters.
+If you like this project create an issue or comment on 
+my project , i will be glad to hear from you .
+Thank you.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments 
 
-> I would like to thank the Microverse community for their support and guidance throughout this project. Special thanks to my peers and mentors for their constructive feedback and advice.
+I would like to thank each and everyone for your support and interest on my project.
+Thank you
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,4 +181,3 @@ Feel free to check the [issues page](../../issues/).
 
 This project is [MIT](./LICENSE) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
