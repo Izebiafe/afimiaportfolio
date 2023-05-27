@@ -87,8 +87,8 @@ Clone this repository to your desired folder:
 
 
 ```sh
-  git clone git@github.com:izebiafe/my-portfolio.git
-  cd my-portfolio
+  git clone git@github.com:izebiafe/afimiaportfolio.git
+  cd afimiaportfolio
 ```
 
 ### Install
