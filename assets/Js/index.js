@@ -53,7 +53,7 @@ window.onload = () => {
   email.value = formDataObj.email;
   message.value = formDataObj.message;
 };
-=======
+
 function validateEmail(event) {
   const emailInput = document.getElementById('email');
   const errorMessage = document.getElementById('errorMessage');
