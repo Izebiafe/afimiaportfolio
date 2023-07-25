@@ -87,8 +87,8 @@ Clone this repository to your desired folder:
 
 
 ```sh
-  git clone git@github.com:izebiafe/my-portfolio.git
-  cd my-portfolio
+  git clone git@github.com:izebiafe/afimiaportfolio.git
+  cd afimiaportfolio
 ```
 
 ### Install
@@ -125,15 +125,14 @@ You can deploy this project using any web platform of your choice
 
 
 👤 **Afimia Fidelis Izebiafe**
+👤 **Uwimbabazi Dorcas**
 
 - GitHub: [@githubhandle](https://github.com/izebiafe)
 - Twitter: [@twitterhandle](https://twitter.com/Afimia_fidelis)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/izebiafe)
-
-
-
-
-
+- GitHub: [@Dorcas126](https://github.com/Dorcas126)
+- Twitter: [@Dorcasuw](https://twitter.com/Dorcasuwi)
+- LinkedIn: [Uwimbabazi Dorcas](https://www.linkedin.com/in/uwimbabazi-dorcas-956a5a226/)
 
 
 👤 **Uwimbabazi Dorcas**

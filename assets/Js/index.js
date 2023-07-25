@@ -30,6 +30,7 @@ navlinks.forEach((n) => {
   });
 });
 
+browsdata
 const form = document.querySelector('#form');
 const name = document.querySelector('#name');
 const email = document.querySelector('#email');
@@ -52,3 +53,25 @@ window.onload = () => {
   email.value = formDataObj.email;
   message.value = formDataObj.message;
 };
+=======
+function validateEmail(event) {
+  const emailInput = document.getElementById('email');
+  const errorMessage = document.getElementById('errorMessage');
+
+  if (emailInput.checkValidity()) {
+    const email = emailInput.value.trim();
+    const isLowerCase = email === email.toLowerCase();
+
+    if (isLowerCase) {
+      errorMessage.style.display = 'none';
+    } else {
+      errorMessage.textContent = 'Please enter the email in lowercase.';
+      errorMessage.style.display = 'block';
+      event.preventDefault();
+    }
+  }
+}
+
+const form = document.getElementById('form');
+form.addEventListener('submit', validateEmail); 
+main
