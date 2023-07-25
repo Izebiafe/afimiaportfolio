@@ -135,10 +135,6 @@ You can deploy this project using any web platform of your choice
 - LinkedIn: [Uwimbabazi Dorcas](https://www.linkedin.com/in/uwimbabazi-dorcas-956a5a226/)
 
 
-
-
-
-
 👤 **Uwimbabazi Dorcas**
 - GitHub: [@Dorcas126](https://github.com/Dorcas126)
 - Twitter: [@Dorcasuw](https://twitter.com/Dorcasuwi)
